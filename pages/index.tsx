@@ -33,17 +33,17 @@ export default function Home(): JSX.Element {
       <div id="journey">
         <h1 className="text-center text-4xl my-2 pt-32">My Journey.</h1>
       </div>
-      <div id="portfolio" className="bg-orange py-5">
+      {/*<div id="blog" className="bg-orange py-5">
         <h1 className="text-center text-4xl my-2 text-white pt-20">
           Some of my ideas.
         </h1>
-      </div>
+      </div>*/}
       <div id="portfolio" className="bg-dark-blue py-5">
         <h1 className="text-center text-4xl my-2 pt-20 text-white">
           Some things I created.
         </h1>
       </div>
-      <div id="portfolio" className="text-center py-5">
+      <div id="connect" className="text-center py-5">
         <h1 className="text-center text-4xl my-2 pt-20">Lets connect.</h1>
         <p className="my-2 text-lg">
           The best way to contact me is through any of my social accounts.
