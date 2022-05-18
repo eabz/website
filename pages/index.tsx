@@ -30,19 +30,23 @@ export default function Home(): JSX.Element {
           </Link>
         </div>
       </div>
-      <div id="journey" className="mt-44">
-        <h1 className="text-center text-4xl my-2">My Journey</h1>
+      <div id="journey">
+        <h1 className="text-center text-4xl my-2 pt-32">My Journey.</h1>
       </div>
-      <div id="portfolio" className="mt-44">
-        <h1 className="text-center text-4xl my-2">Some of my ideas</h1>
+      <div id="portfolio" className="bg-orange py-5">
+        <h1 className="text-center text-4xl my-2 text-white pt-20">
+          Some of my ideas.
+        </h1>
       </div>
-      <div id="portfolio" className="mt-44">
-        <h1 className="text-center text-4xl my-2">Things I created</h1>
+      <div id="portfolio" className="bg-dark-blue py-5">
+        <h1 className="text-center text-4xl my-2 pt-20 text-white">
+          Some things I created.
+        </h1>
       </div>
-      <div id="portfolio" className="mt-44 text-center">
-        <p>
-          Let's connect. The best way to contact me is through any of my social
-          accounts.
+      <div id="portfolio" className="text-center py-5">
+        <h1 className="text-center text-4xl my-2 pt-20">Lets connect.</h1>
+        <p className="my-2 text-lg">
+          The best way to contact me is through any of my social accounts.
         </p>
         <div className="flex flex-row justify-center gap-5 mx-auto my-12">
           <a href="https://twitter.com/0xChronos" target="_blank">
