@@ -49,7 +49,7 @@ export default function Home(): JSX.Element {
           The best way to contact me is through any of my social accounts.
         </p>
         <div className="flex flex-row justify-center gap-5 mx-auto my-12">
-          <a href="https://twitter.com/0xChronos" target="_blank">
+          <a href="https://twitter.com/eberruetazap" target="_blank">
             <Image src={"/icons/twitter.svg"} width="100px" height="100px" />
           </a>
           <a
