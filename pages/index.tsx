@@ -1,28 +1,67 @@
 import Image from "next/image";
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
+import Link from "next/link";
+
 export default function Home(): JSX.Element {
   return (
     <>
-      <div className="mt-20">
-        <p className="text-center text-2xl">Hi, I'm</p>
-        <h1 className="text-center text-4xl my-2">Enrique Berrueta</h1>
-      </div>
-      <div className="mt-20 flex flex-row justify-center">
-        <div className="rounded-full border-solid border-8 border-white-2 h-[315px] drop-shadow-lg">
-          <Image
-            className="rounded-full"
-            src={"/img/portrait.jpeg"}
-            width="300"
-            height="300"
-          />
+      <div id="home">
+        <div className="mt-20">
+          <p className="text-center text-2xl text-blue">Hi, I'm</p>
+          <h1 className="text-center text-4xl my-2">Enrique Berrueta</h1>
+        </div>
+        <div className="mt-14 flex flex-row justify-center">
+          <div className="rounded-full border-solid border-8 border-white-2 h-[315px] drop-shadow-lg">
+            <Image
+              className="rounded-full"
+              src={"/img/portrait.jpeg"}
+              width="300"
+              height="300"
+            />
+          </div>
+        </div>
+        <div className="mt-14">
+          <p className="text-center text-2xl text-blue">
+            And this is my website.
+          </p>
+        </div>
+        <div className="animate-bounce h-[50px] flex flex-row justify-center mt-14 cursor-pointer">
+          <Link href="/#journey" scroll={true} passHref={false}>
+            <Image src={"/icons/down.svg"} width="100px" height="100px" />
+          </Link>
         </div>
       </div>
-      <div className="mt-20">
-        <p className="text-center text-2xl">And this is my website.</p>
+      <div id="journey" className="mt-44">
+        <h1 className="text-center text-4xl my-2">My Journey</h1>
       </div>
-        <div className="h-[10px]">
-            <KeyboardDoubleArrowDownIcon className="animate-bounce" />
+      <div id="portfolio" className="mt-44">
+        <h1 className="text-center text-4xl my-2">Some of my ideas</h1>
+      </div>
+      <div id="portfolio" className="mt-44">
+        <h1 className="text-center text-4xl my-2">Things I created</h1>
+      </div>
+      <div id="portfolio" className="mt-44 text-center">
+        <p>
+          Let's connect. The best way to contact me is through any of my social
+          accounts.
+        </p>
+        <div className="flex flex-row justify-center gap-5 mx-auto my-12">
+          <a href="https://twitter.com/0xChronos" target="_blank">
+            <Image src={"/icons/twitter.svg"} width="100px" height="100px" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/enrique-berrueta-b6207323b/"
+            target="_blank"
+          >
+            <Image src={"/icons/linkedin.svg"} width="100px" height="100px" />
+          </a>
+          <a href="https://github.com/eabz" target="_blank">
+            <Image src={"/icons/github.svg"} width="100px" height="100px" />
+          </a>
+          <a href="https://instagram.com/eberruetazap/" target="_blank">
+            <Image src={"/icons/instagram.svg"} width="100px" height="100px" />
+          </a>
         </div>
+      </div>
     </>
   );
 }

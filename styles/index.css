@@ -13,6 +13,7 @@
 }
 
 html,body {
+    scroll-behavior: smooth;
     min-height: 100vh;
     background-color: #F0F7F9;
 }
