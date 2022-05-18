@@ -76,8 +76,8 @@ class MyDocument extends Document {
             href="/favicon-16x16.png"
           />
           <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
-          <meta name="msapplication-TileColor" content="#FFFFFF" />
-          <meta name="theme-color" content="#FFFFFF" />
+          <meta name="msapplication-TileColor" content="#F0F7F9" />
+          <meta name="theme-color" content="#F0F7F9" />
         </Head>
         <body>
           <Main />
