@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Ruda Black';
+    src: url('./fonts/ruda-black.ttf');
+}
+
+@font-face {
+    font-family: 'Ruda Regular';
+    src: url('./fonts/ruda-regular.ttf');
+}
+
+html,body {
+    min-height: 100vh;
+}
+
+body {
+    z-index: 0;
+    font-family: "Ruda Regular", sans-serif;
+    background-size: 100%;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Ruda Black", sans-serif;
+}
