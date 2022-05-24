@@ -31,7 +31,9 @@ export default function Home(): JSX.Element {
         </div>
       </div>
       <div id="journey">
-        <h1 className="text-center text-4xl my-2 pt-32">My Journey.</h1>
+        <h1 className="text-center text-4xl my-2 pt-32 text-dark-blue">
+          My Journey.
+        </h1>
       </div>
       {/*<div id="blog" className="bg-orange py-5">
         <h1 className="text-center text-4xl my-2 text-white pt-20">
@@ -44,26 +46,34 @@ export default function Home(): JSX.Element {
         </h1>
       </div>
       <div id="connect" className="text-center py-5">
-        <h1 className="text-center text-4xl my-2 pt-20">Lets connect.</h1>
-        <p className="my-2 text-lg">
+        <h1 className="text-center text-4xl my-2 pt-20 text-dark-blue">
+          Lets connect.
+        </h1>
+        <p className="my-2 text-lg text-dark-blue">
           The best way to contact me is through any of my social accounts.
         </p>
-        <div className="flex flex-row justify-center gap-5 mx-auto my-12">
-          <a href="https://twitter.com/eberruetazap" target="_blank">
-            <Image src={"/icons/twitter.svg"} width="100px" height="100px" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/enrique-berrueta-b6207323b/"
-            target="_blank"
-          >
-            <Image src={"/icons/linkedin.svg"} width="100px" height="100px" />
-          </a>
-          <a href="https://github.com/eabz" target="_blank">
-            <Image src={"/icons/github.svg"} width="100px" height="100px" />
-          </a>
-          <a href="https://instagram.com/eberruetazap/" target="_blank">
-            <Image src={"/icons/instagram.svg"} width="100px" height="100px" />
-          </a>
+        <div className="flex flex-row w-1/2 mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mx-auto my-12">
+            <a href="https://twitter.com/eberruetazap" target="_blank">
+              <Image src={"/icons/twitter.svg"} width="100px" height="100px" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/enrique-berrueta-b6207323b/"
+              target="_blank"
+            >
+              <Image src={"/icons/linkedin.svg"} width="100px" height="100px" />
+            </a>
+            <a href="https://github.com/eabz" target="_blank">
+              <Image src={"/icons/github.svg"} width="100px" height="100px" />
+            </a>
+            <a href="https://instagram.com/eberruetazap/" target="_blank">
+              <Image
+                src={"/icons/instagram.svg"}
+                width="100px"
+                height="100px"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </>
